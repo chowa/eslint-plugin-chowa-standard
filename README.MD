@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="http://upload.ouliu.net/i/20200108163318i47lq.png" width="240">
+</p>
+
 # eslint-plugin-chowa-standard
 
 [![npm](https://img.shields.io/npm/v/eslint-plugin-chowa-standard.svg)](https://www.npmjs.com/package/eslint-plugin-chowa-standard)

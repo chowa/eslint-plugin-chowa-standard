@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-chowa-standard",
+  "version": "1.0.0",
+  "description": "eslint rules for chowa project",
+  "main": "index.js",
+  "engines": {
+    "node": ">=9.0.0",
+    "npm": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowa/eslint-plugin-chowa-standard.git"
+  },
+  "keywords": [
+    "eslint",
+    "chowa",
+    "typescript",
+    "es",
+    "es6"
+  ],
+  "author": "xuecong8226@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chowa/eslint-plugin-chowa-standard/issues"
+  },
+  "homepage": "https://github.com/chowa/eslint-plugin-chowa-standard#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint": "^6.7.2",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-react": "^7.17.0"
+  }
+}

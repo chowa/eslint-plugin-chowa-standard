@@ -45,7 +45,7 @@ module.exports = {
 ```js
 {
     extends: [
-        'plugin:ege-standard/recommended'
+        'plugin:chowa-standard/recommended'
     ]
 }
 ```

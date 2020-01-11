@@ -9,17 +9,17 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://opensource.org/licenses/MIT)
 
 
-> Chowa Js & Ts 统一编码规则
+Chowa project javscript and typescript syntax standard
 
 ## 安装
 
-> 无须单独安装 `eslint`、`eslint-loader`、`eslint-friendly-formatter`
+High version npm can be installed without `eslint`、`eslint-loader`、`eslint-friendly-formatter`
 
 ```
 npm i eslint-plugin-chowa-standard --save-dev
 ```
 
-## 使用
+## Usage
 
 ### webpack loader
 

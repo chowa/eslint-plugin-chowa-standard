@@ -11,7 +11,7 @@
 
 Chowa project javascript and typescript syntax standard
 
-## 安装
+## Install
 
 High version npm can be installed without `eslint`、`eslint-loader`、`eslint-friendly-formatter`
 

@@ -9,7 +9,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://opensource.org/licenses/MIT)
 
 
-Chowa project javscript and typescript syntax standard
+Chowa project javascript and typescript syntax standard
 
 ## 安装
 

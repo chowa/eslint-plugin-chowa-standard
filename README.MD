@@ -67,7 +67,22 @@ module.exports = {
     ],
     plugins: [
         'react'
-    ]
+    ],
+    env: {
+        node: false,
+        browser: true
+    },
+    parserOptions: {
+        ecmaVersion: 2017,
+        sourceType: "module",
+        jsx: true
+    },
+    settings: {
+        react: {
+            pragma: "React",
+            version: "detect"
+        }
+    }
 }
 ```
 
@@ -75,14 +90,21 @@ module.exports = {
 
 ```js
 {
-    parser: '@typescript-eslint/parser',
     extends: [
-        'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
-        'plugin:@typescript-eslint/recommended'
+        'plugin:@typescript-eslint/recommended',
+        'plugin:chowa-standard/recommended'
     ],
     plugins: [
         '@typescript-eslint'
-    ]
+    ],
+    env: {
+        node: true,
+        es6: true
+    },
+    parserOptions: {
+        ecmaVersion: 2017,
+        sourceType: 'module'
+    }
 }
 ```

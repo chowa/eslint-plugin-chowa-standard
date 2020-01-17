@@ -57,9 +57,13 @@ module.exports = {
 
 ### React
 
+#### Install plugin
+
 ```
 npm i eslint-plugin-react --save-dev
 ```
+
+#### eslintrc
 
 ```js
 {
@@ -91,9 +95,13 @@ npm i eslint-plugin-react --save-dev
 
 ### Typescript
 
+#### Install plugin
+
 ```
 npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
 ```
+
+#### eslintrc
 
 ```js
 {

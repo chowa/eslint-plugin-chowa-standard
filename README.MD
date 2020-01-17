@@ -13,8 +13,6 @@ Chowa project javascript and typescript syntax standard
 
 ## Install
 
-High version npm can be installed without `eslint`、`eslint-loader`、`eslint-friendly-formatter`
-
 ```
 npm i eslint-plugin-chowa-standard --save-dev
 ```
@@ -59,6 +57,10 @@ module.exports = {
 
 ### React
 
+```
+npm i eslint-plugin-react --save-dev
+```
+
 ```js
 {
     extends: [
@@ -88,6 +90,10 @@ module.exports = {
 ```
 
 ### Typescript
+
+```
+npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
+```
 
 ```js
 {

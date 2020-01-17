@@ -95,7 +95,7 @@ npm i eslint-plugin-react --save-dev
 
 ### Typescript
 
-#### Install plugin
+#### Install plugin and parser
 
 ```
 npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
@@ -105,6 +105,7 @@ npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
 
 ```js
 {
+    parser: '@typescript-eslint/parser',
     extends: [
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',

@@ -70,17 +70,18 @@ module.exports = {
     ],
     env: {
         node: false,
-        browser: true
+        browser: true,
+        es6: true
     },
     parserOptions: {
         ecmaVersion: 2017,
-        sourceType: "module",
+        sourceType: 'module',
         jsx: true
     },
     settings: {
         react: {
-            pragma: "React",
-            version: "detect"
+            pragma: 'React',
+            version: 'detect'
         }
     }
 }

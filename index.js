@@ -1,32 +1,9 @@
 module.exports = {
     configs: {
         recommended: {
-            parser: '@typescript-eslint/parser',
             extends: [
-                'eslint:recommended',
-                'plugin:@typescript-eslint/eslint-recommended',
-                'plugin:@typescript-eslint/recommended',
-                'plugin:react/recommended'
+                'eslint:recommended'
             ],
-            plugins: [
-                '@typescript-eslint',
-                'react'
-            ],
-            env: {
-                node: false,
-                browser: true
-            },
-            parserOptions: {
-                ecmaVersion: 2017,
-                sourceType: 'module',
-                jsx: true
-            },
-            settings: {
-                react: {
-                    pragma: 'React',
-                    version: 'detect'
-                }
-            },
             rules: {
                 'no-unused-vars': 'error',
                 '@typescript-eslint/no-explicit-any': 0,

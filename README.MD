@@ -53,3 +53,36 @@ module.exports = {
     ]
 }
 ```
+
+
+## Configuration
+
+### React
+
+```js
+{
+    extends: [
+        'plugin:react/recommended',
+        'plugin:chowa-standard/recommended'
+    ],
+    plugins: [
+        'react'
+    ]
+}
+```
+
+### Typescript
+
+```js
+{
+    parser: '@typescript-eslint/parser',
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended'
+    ],
+    plugins: [
+        '@typescript-eslint'
+    ]
+}
+```

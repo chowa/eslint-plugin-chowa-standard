@@ -17,6 +17,12 @@ Chowa project javascript and typescript syntax standard
 npm i eslint-plugin-chowa-standard --save-dev
 ```
 
+If you don't have eslint installed
+
+```
+npm i eslint eslint-loader eslint-friendly-formatter  --save-dev
+```
+
 ## Usage
 
 ### webpack loader

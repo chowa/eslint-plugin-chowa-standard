@@ -23,10 +23,5 @@
   "bugs": {
     "url": "https://github.com/chowa/eslint-plugin-chowa-standard/issues"
   },
-  "homepage": "https://github.com/chowa/eslint-plugin-chowa-standard#readme",
-  "dependencies": {
-    "eslint": "^6.7.2",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^3.0.3"
-  }
+  "homepage": "https://github.com/chowa/eslint-plugin-chowa-standard#readme"
 }
